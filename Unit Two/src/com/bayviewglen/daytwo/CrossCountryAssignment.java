@@ -14,45 +14,67 @@ public class CrossCountryAssignment {
 		String strSecondSplit = "Second Split:";
 		String strThirdSplit = "Third Split:";
 		String strTotal = "Total:";
+		final int SUMMARY_GAP_WIDTH = 4;
 
 		runner1.prompt();
 		System.out.println("\n\nRunner One Summary\n******************");
-		System.out.printf("\n%15s%" + (runner1.fullName.length() + 3) + "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n", "Runner Name:", runner1.fullName, strFirstSplit, runner1.minutesSplitOne, runner1.secondsSplitOne,
+		System.out.printf(
+				"\n%15s%" + (runner1.fullName.length() + SUMMARY_GAP_WIDTH)
+						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
+				"Runner Name:", runner1.fullName, strFirstSplit, runner1.minutesSplitOne, runner1.secondsSplitOne,
 				strSecondSplit, runner1.minutesSplitTwo, runner1.secondsSplitTwo, strThirdSplit,
 				runner1.minutesSplitThree, runner1.secondsSplitThree, strTotal, runner1.minutesTotal,
 				runner1.secondsTotal);
 
 		runner2.prompt();
 		System.out.println("\n\nRunner Two Summary\n******************");
-		System.out.printf("\n%15s%" + (runner2.fullName.length() + 3) + "s \n%15s%5%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
-				strFirstSplit, runner2.minutesSplitOne, runner2.secondsSplitOne, strSecondSplit,
-				runner2.minutesSplitTwo, runner2.secondsSplitTwo, strThirdSplit, runner2.minutesSplitThree,
-				runner2.secondsSplitThree, strTotal, runner2.minutesTotal, runner2.secondsTotal);
+		System.out.printf(
+				"\n%15s%" + (runner2.fullName.length() + SUMMARY_GAP_WIDTH)
+						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
+				"Runner Name:", runner2.fullName, strFirstSplit, runner2.minutesSplitOne, runner2.secondsSplitOne,
+				strSecondSplit, runner2.minutesSplitTwo, runner2.secondsSplitTwo, strThirdSplit,
+				runner2.minutesSplitThree, runner2.secondsSplitThree, strTotal, runner2.minutesTotal,
+				runner2.secondsTotal);
 
 		runner3.prompt();
 		System.out.println("\n\nRunner Three Summary\n******************");
-		System.out.printf("\n%15s%" + (runner3.fullName.length() + 3) + "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n", strFirstSplit,
-				runner3.minutesSplitOne, runner3.secondsSplitOne, strSecondSplit, runner3.minutesSplitTwo,
-				runner3.secondsSplitTwo, strThirdSplit, runner3.minutesSplitThree, runner3.secondsSplitThree, strTotal,
-				runner3.minutesTotal, runner3.secondsTotal);
+		System.out.printf(
+				"\n%15s%" + (runner3.fullName.length() + SUMMARY_GAP_WIDTH)
+						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
+				"Runner Name:", runner3.fullName, strFirstSplit, runner3.minutesSplitOne, runner3.secondsSplitOne,
+				strSecondSplit, runner3.minutesSplitTwo, runner3.secondsSplitTwo, strThirdSplit,
+				runner3.minutesSplitThree, runner3.secondsSplitThree, strTotal, runner3.minutesTotal,
+				runner3.secondsTotal);
 
 		runner4.prompt();
 		System.out.println("\n\nRunner Four Summary\n******************");
-		System.out.printf("\n%15s%" + (runner1.fullName.length() + 3) + "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n", strFirstSplit,
-				runner4.minutesSplitOne, runner4.secondsSplitOne, strSecondSplit, runner4.minutesSplitTwo,
-				runner4.secondsSplitTwo, strThirdSplit, runner4.minutesSplitThree, runner4.secondsSplitThree, strTotal,
-				runner4.minutesTotal, runner4.secondsTotal);
+		System.out.printf(
+				"\n%15s%" + (runner1.fullName.length() + SUMMARY_GAP_WIDTH)
+						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
+				"Runner Name:", runner4.fullName, strFirstSplit, runner4.minutesSplitOne, runner4.secondsSplitOne,
+				strSecondSplit, runner4.minutesSplitTwo, runner4.secondsSplitTwo, strThirdSplit,
+				runner4.minutesSplitThree, runner4.secondsSplitThree, strTotal, runner4.minutesTotal,
+				runner4.secondsTotal);
 
 		runner5.prompt();
 		System.out.println("\n\nRunner Five Summary\n******************");
-		System.out.printf("\n%15s%" + (runner1.fullName.length() + 3) + "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n", strFirstSplit,
-				runner5.minutesSplitOne, runner5.secondsSplitOne, strSecondSplit, runner5.minutesSplitTwo,
-				runner5.secondsSplitTwo, strThirdSplit, runner5.minutesSplitThree, runner5.secondsSplitThree, strTotal,
-				runner5.minutesTotal, runner5.secondsTotal);
+		System.out.printf(
+				"\n%15s%" + (runner1.fullName.length() + SUMMARY_GAP_WIDTH)
+						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
+				"Runner Name:", runner1.fullName, strFirstSplit, runner5.minutesSplitOne, runner5.secondsSplitOne,
+				strSecondSplit, runner5.minutesSplitTwo, runner5.secondsSplitTwo, strThirdSplit,
+				runner5.minutesSplitThree, runner5.secondsSplitThree, strTotal, runner5.minutesTotal,
+				runner5.secondsTotal);
 
-		System.out.println("All Runner Runner Summaries\n***************************");
-		System.out.printf("", args);
-
+		System.out.println("All Runner Runner Summaries\n***************************\n\n");
+		System.out.printf("%15s %16s, %-14s%s, %-14s%s, %-14s%s, %-14s%s, %s \n\n", "Runner Name:", runner1.lastName,
+				runner1.firstName, runner2.lastName, runner2.firstName, runner3.lastName, runner3.firstName,
+				runner4.lastName, runner4.firstName, runner5.lastName, runner5.firstName);
+		System.out.printf("%15s %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f", strFirstSplit,
+				runner1.minutesSplitOne, runner1.secondsSplitOne, runner2.minutesSplitOne, runner2.secondsSplitOne,
+				runner3.minutesSplitOne, runner3.secondsSplitOne, runner4.minutesSplitOne, runner4.secondsSplitOne,
+				runner5.minutesSplitOne, runner5.secondsSplitOne);
+																																																																																																																																																																																																																																																																																																											
 	}
 
 }
@@ -69,11 +91,13 @@ class Runner {
 	double secondsTotal;
 	String fullName;
 	String firstName;
+	String lastName;
 
 	public void prompt() {
 		System.out.print("Please enter the runner's full name: ");
 		fullName = in.nextLine();
 		firstName = fullName.substring(0, fullName.indexOf(" "));
+		lastName = fullName.substring(fullName.indexOf(" "));
 
 		System.out.printf("%s, Please enter the time it took you to run the first mile (mm:ss.sss): ", firstName);
 		String strTimeOneMile = in.nextLine();
