@@ -34,7 +34,7 @@ public class CrossCountryAssignment {
 				runner2.secondsTotal);
 
 		runner3.prompt();
-		System.out.println("\n\nRunner Three Summary\n******************");
+		System.out.println("\n\nRunner Three Summary\n********************");
 		System.out.printf(
 				"\n%15s%" + (runner3.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
@@ -44,7 +44,7 @@ public class CrossCountryAssignment {
 				runner3.secondsTotal);
 
 		runner4.prompt();
-		System.out.println("\n\nRunner Four Summary\n******************");
+		System.out.println("\n\nRunner Four Summary\n*******************");
 		System.out.printf(
 				"\n%15s%" + (runner4.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
@@ -54,7 +54,7 @@ public class CrossCountryAssignment {
 				runner4.secondsTotal);
 
 		runner5.prompt();
-		System.out.println("\n\nRunner Five Summary\n******************");
+		System.out.println("\n\nRunner Five Summary\n*******************");
 		System.out.printf(
 				"\n%15s%" + (runner5.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n\n",
