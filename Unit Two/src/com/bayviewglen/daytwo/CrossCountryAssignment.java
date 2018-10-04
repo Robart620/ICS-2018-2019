@@ -10,20 +10,17 @@ public class CrossCountryAssignment {
 		Runner runner3 = new Runner();
 		Runner runner4 = new Runner();
 		Runner runner5 = new Runner();
-		String strFirstSplit = "First Split:";
-		String strSecondSplit = "Second Split:";
-		String strThirdSplit = "Third Split:";
-		String strTotal = "Total:";
 		final int SUMMARY_GAP_WIDTH = 4;
+		final int TABLE_GAP_WIDTH = 21;
 
 		runner1.prompt();
 		System.out.println("\n\nRunner One Summary\n******************");
 		System.out.printf(
 				"\n%15s%" + (runner1.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
-				"Runner Name:", runner1.fullName, strFirstSplit, runner1.minutesSplitOne, runner1.secondsSplitOne,
-				strSecondSplit, runner1.minutesSplitTwo, runner1.secondsSplitTwo, strThirdSplit,
-				runner1.minutesSplitThree, runner1.secondsSplitThree, strTotal, runner1.minutesTotal,
+				"Runner Name:", runner1.fullName, "First Split:", runner1.minutesSplitOne, runner1.secondsSplitOne,
+				"Second Split:", runner1.minutesSplitTwo, runner1.secondsSplitTwo, "Third Split:",
+				runner1.minutesSplitThree, runner1.secondsSplitThree, "Total:", runner1.minutesTotal,
 				runner1.secondsTotal);
 
 		runner2.prompt();
@@ -31,9 +28,9 @@ public class CrossCountryAssignment {
 		System.out.printf(
 				"\n%15s%" + (runner2.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
-				"Runner Name:", runner2.fullName, strFirstSplit, runner2.minutesSplitOne, runner2.secondsSplitOne,
-				strSecondSplit, runner2.minutesSplitTwo, runner2.secondsSplitTwo, strThirdSplit,
-				runner2.minutesSplitThree, runner2.secondsSplitThree, strTotal, runner2.minutesTotal,
+				"Runner Name:", runner2.fullName, "First Split:", runner2.minutesSplitOne, runner2.secondsSplitOne,
+				"Second Split:", runner2.minutesSplitTwo, runner2.secondsSplitTwo, "Third Split:",
+				runner2.minutesSplitThree, runner2.secondsSplitThree, "Total:", runner2.minutesTotal,
 				runner2.secondsTotal);
 
 		runner3.prompt();
@@ -41,39 +38,60 @@ public class CrossCountryAssignment {
 		System.out.printf(
 				"\n%15s%" + (runner3.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
-				"Runner Name:", runner3.fullName, strFirstSplit, runner3.minutesSplitOne, runner3.secondsSplitOne,
-				strSecondSplit, runner3.minutesSplitTwo, runner3.secondsSplitTwo, strThirdSplit,
-				runner3.minutesSplitThree, runner3.secondsSplitThree, strTotal, runner3.minutesTotal,
+				"Runner Name:", runner3.fullName, "First Split:", runner3.minutesSplitOne, runner3.secondsSplitOne,
+				"Second Split:", runner3.minutesSplitTwo, runner3.secondsSplitTwo, "Third Split:",
+				runner3.minutesSplitThree, runner3.secondsSplitThree, "Total:", runner3.minutesTotal,
 				runner3.secondsTotal);
 
 		runner4.prompt();
 		System.out.println("\n\nRunner Four Summary\n******************");
 		System.out.printf(
-				"\n%15s%" + (runner1.fullName.length() + SUMMARY_GAP_WIDTH)
+				"\n%15s%" + (runner4.fullName.length() + SUMMARY_GAP_WIDTH)
 						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
-				"Runner Name:", runner4.fullName, strFirstSplit, runner4.minutesSplitOne, runner4.secondsSplitOne,
-				strSecondSplit, runner4.minutesSplitTwo, runner4.secondsSplitTwo, strThirdSplit,
-				runner4.minutesSplitThree, runner4.secondsSplitThree, strTotal, runner4.minutesTotal,
+				"Runner Name:", runner4.fullName, "First Split:", runner4.minutesSplitOne, runner4.secondsSplitOne,
+				"Second Split:", runner4.minutesSplitTwo, runner4.secondsSplitTwo, "Third Split:",
+				runner4.minutesSplitThree, runner4.secondsSplitThree, "Total:", runner4.minutesTotal,
 				runner4.secondsTotal);
 
 		runner5.prompt();
 		System.out.println("\n\nRunner Five Summary\n******************");
 		System.out.printf(
-				"\n%15s%" + (runner1.fullName.length() + SUMMARY_GAP_WIDTH)
-						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n",
-				"Runner Name:", runner1.fullName, strFirstSplit, runner5.minutesSplitOne, runner5.secondsSplitOne,
-				strSecondSplit, runner5.minutesSplitTwo, runner5.secondsSplitTwo, strThirdSplit,
-				runner5.minutesSplitThree, runner5.secondsSplitThree, strTotal, runner5.minutesTotal,
+				"\n%15s%" + (runner5.fullName.length() + SUMMARY_GAP_WIDTH)
+						+ "s \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f \n%15s%5d:%06.3f\n\n\n\n",
+				"Runner Name:", runner5.fullName, "First Split:", runner5.minutesSplitOne, runner5.secondsSplitOne,
+				"Second Split:", runner5.minutesSplitTwo, runner5.secondsSplitTwo, "Third Split:",
+				runner5.minutesSplitThree, runner5.secondsSplitThree, "Total:", runner5.minutesTotal,
 				runner5.secondsTotal);
 
 		System.out.println("All Runner Runner Summaries\n***************************\n\n");
-		System.out.printf("%15s %16s, %-14s%s, %-14s%s, %-14s%s, %-14s%s, %s \n\n", "Runner Name:", runner1.lastName,
-				runner1.firstName, runner2.lastName, runner2.firstName, runner3.lastName, runner3.firstName,
-				runner4.lastName, runner4.firstName, runner5.lastName, runner5.firstName);
-		System.out.printf("%15s %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f", strFirstSplit,
+		System.out.printf(
+				"%15s %17s, %-" + (TABLE_GAP_WIDTH - runner2.lastName.length()) + "s%s, %-"
+						+ (TABLE_GAP_WIDTH - runner3.lastName.length()) + "s%s, %-"
+						+ (TABLE_GAP_WIDTH - runner4.lastName.length()) + "s%s, %-"
+						+ (TABLE_GAP_WIDTH - runner5.lastName.length()) + "s%s, %s \n\n",
+				"Runner Name:", runner1.lastName, runner1.firstName, runner2.lastName, runner2.firstName,
+				runner3.lastName, runner3.firstName, runner4.lastName, runner4.firstName, runner5.lastName,
+				runner5.firstName);
+		System.out.printf("%15s %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f\n", "First Split:",
 				runner1.minutesSplitOne, runner1.secondsSplitOne, runner2.minutesSplitOne, runner2.secondsSplitOne,
 				runner3.minutesSplitOne, runner3.secondsSplitOne, runner4.minutesSplitOne, runner4.secondsSplitOne,
 				runner5.minutesSplitOne, runner5.secondsSplitOne);
+		
+		System.out.printf("%15s %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f\n", "Second Split:",
+				runner1.minutesSplitOne, runner1.secondsSplitOne, runner2.minutesSplitOne, runner2.secondsSplitOne,
+				runner3.minutesSplitOne, runner3.secondsSplitOne, runner4.minutesSplitOne, runner4.secondsSplitOne,
+				runner5.minutesSplitOne, runner5.secondsSplitOne);
+		
+		System.out.printf("%15s %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f\n", "Third Split:",
+				runner1.minutesSplitOne, runner1.secondsSplitOne, runner2.minutesSplitOne, runner2.secondsSplitOne,
+				runner3.minutesSplitOne, runner3.secondsSplitOne, runner4.minutesSplitOne, runner4.secondsSplitOne,
+				runner5.minutesSplitOne, runner5.secondsSplitOne);
+		
+		System.out.printf("%15s %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f %15d:%06.3f\n", "Total:",
+				runner1.minutesSplitOne, runner1.secondsSplitOne, runner2.minutesSplitOne, runner2.secondsSplitOne,
+				runner3.minutesSplitOne, runner3.secondsSplitOne, runner4.minutesSplitOne, runner4.secondsSplitOne,
+				runner5.minutesSplitOne, runner5.secondsSplitOne);
+		
 																																																																																																																																																																																																																																																																																																											
 	}
 
